@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="UTF-8"> 
+   <style>
+    ul li{
+        color: blue;
+    }
+        /*só o li que é children do ul*/ 
+
+    a[href="https://facebook.com"]{
+        color: red;
+    }
+    /*apenas o especifico*/
+   </style>
+</head>
+<body>
+    <div>
+        <ol>
+            <li>List item 1</li>
+            <li>List item 1</li>
+            <ul>
+                <li>sublist item 1</li>
+                <li>sublist item 1</li>
+            </ul>
+            <li>List item 1</li>
+        </ol>
+    </div>
+
+    <div>
+        <ul>
+            <li><a href="https://google.com">Google</li>
+            <li><a href="https://facebook.com">Facebook</li>
+            <li><a href="https://amazon.com">Amazon</li>
+        </ul>
+    </div>
+
+</body>
+</html>
